@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        
+}
+
+.container{
+    border: 1px solid black;
+}
+.box{
+    border: 2px solid red;
+    margin: 20px;
+    padding: 10px;
+}
+h2{
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+.result{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid green;
+    margin: 20px;
+    padding: 10px;
+}
+.result h2{
+    font-weight: normal;
+}

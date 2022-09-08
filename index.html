@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Slider Based Calculator</title>
+</head>
+<body>
+    <h1>Simple Interest Calculator</h1>
+    <div class="container">
+        <div class="box">
+            <label for="principle">Principle amt:</label>
+            <input type="range" min="1" max="10000" class="Pslider">
+            <h2 class="Pvalue"></h2>
+        </div>
+        <div class="box">
+            <label for="rateofinterest">Rate of Interest:</label>
+            <input type="range" min="1" max="100" class="Rslider">
+            <h2 class="Rvalue"></h2>
+        
+        </div>
+        <div class="box">
+            <label for="noofyears">Number of years:</label>
+            <input type="range" min="1" max="10" class="Nslider">
+            <h2 class="Nvalue"></h2>
+
+        </div>
+       <div class="result">
+         
+            <label for="" class="">Interest calculated</label>
+            <h2 class="Ivalue">0</h2>
+            <label for="" class="for">Total amount to be paid</label>
+            <h2 class="TAmt">0</h2>
+            <label for="" class="for">Monthly Installment</label>
+            <h2 class="EMI">0</h2>
+       </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
