@@ -1,2 +1,2 @@
-# si-calculator webapp javascript
+# si-calculator app javascript
  
